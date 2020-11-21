@@ -1,13 +1,18 @@
 body {
+
     box-sizing: border-box;
     margin: 0;
 	padding: 0;
 	border: 0;
-	vertical-align: baseline
+    background-color: rgb(93, 92, 92);
 }
 
 .row a {
     padding: 20px;
+}
+p {
+    
+    font-size: 1em;
 }
 /* .btn btn-primary {
 
