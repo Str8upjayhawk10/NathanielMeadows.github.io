@@ -1,22 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 body {
-
     box-sizing: border-box;
     margin: 0;
 	padding: 0;
 	border: 0;
-    background-color: rgb(93, 92, 92);
+    background-color: rgb(249, 249, 249);
 }
-
+h1 h3 {
+    font-family: 'Cinzel', serif;
+}
 .row a {
     padding: 20px;
+    padding-top: 30px;
 }
+
 p {
-    
+    /* color: rgb(7, 136, 249);; */
     font-size: 1em;
 }
-/* .btn btn-primary {
+col-sm-6{
+    padding-top: 5em;
 
-} */
+}
 
 
 
