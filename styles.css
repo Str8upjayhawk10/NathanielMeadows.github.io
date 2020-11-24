@@ -20,8 +20,14 @@ h1, h3 {
 p {
     font-size: 1em;
 }
+h3 {
+  margin-top:70px;  
+}
 address {
     color: rgb(7, 136, 249);
+}
+.contact-form {
+    margin-top:70px;
 }
 
 footer {
