@@ -31,8 +31,15 @@ address {
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 50px; 
+    text-align: center; 
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
     text-align: center;
+
 }
 
 
