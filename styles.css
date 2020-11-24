@@ -6,8 +6,8 @@ body {
 	border: 0;
     background-color: rgb(208, 204, 204);
 }
-h1 h3 {
-    font-family: 'Cinzel', serif;
+h1, h3 {
+    font-family: 'Sansita Swashed', cursive;
 }
 .nav link {
    padding: 25px; 
