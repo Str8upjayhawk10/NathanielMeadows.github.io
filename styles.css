@@ -20,6 +20,9 @@ h1, h3 {
 p {
     font-size: 1em;
 }
+address {
+    color: rgb(7, 136, 249);
+}
 
 footer {
     padding-top: 50px;
