@@ -9,13 +9,21 @@ body {
 h1 h3 {
     font-family: 'Cinzel', serif;
 }
+.nav link {
+   padding: 25px; 
+}
 .row a {
-    padding: 20px;
+    padding: 15px;
     padding-top: 30px;
 }
 
 p {
     font-size: 1em;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
 }
 
 
