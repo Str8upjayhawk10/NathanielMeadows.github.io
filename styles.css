@@ -11,10 +11,12 @@ h1, h3 {
 }
 .flip-box {
     background-color: transparent;
-    width: 800px;
+    width: 1000px;
     height: 1000px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; 
+    display: flex;
+    justify-content: center;
 }
 
 .flip-box-inner {
@@ -25,6 +27,7 @@ h1, h3 {
     transition: transform 0.8s;
     transform-style: preserve-3d;
     vertical-align: middle;
+    position: relative;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -42,6 +45,7 @@ h1, h3 {
     color: black;
     width: 700px;
     height: 700px;
+    margin: 0 auto;
 }
 
 
@@ -49,6 +53,7 @@ h1, h3 {
     background-color: dodgerblue;
     color: white;
     transform: rotateY(180deg);
+    font-size: 20px;
 }
 
 .nav link {
@@ -73,7 +78,10 @@ address {
 .contact-form {
     margin-top:70px;
 }
-
+.footer {
+    color: white;
+    text-align: center;
+}
 footer { 
     position: fixed;
     left: 0;
